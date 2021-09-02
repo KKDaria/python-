@@ -1,0 +1,5 @@
+duration = int(input("Введите колличество секунд"))
+print((duration//86400), "дней")
+print(int(duration//3600) % 24, "часов")
+print(int(duration//60) % 60, "минут")
+print(int(duration % 60), "секунд")
